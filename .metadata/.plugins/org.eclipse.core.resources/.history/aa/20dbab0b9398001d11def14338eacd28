@@ -1,0 +1,28 @@
+package PracticeClass;
+
+public class stringPractice {
+
+	public static void main(String[] args) {
+
+		// to lower case
+		String str = "This IS ME";
+		String name = str.toLowerCase();
+		System.out.println(name);
+
+		// replace space with _
+		String Hi = "Hi how are you";
+		Hi=Hi.replace(" ","_");
+		System.out.println(Hi);
+		
+		// replace a word in sentence
+		String A = "Hi <|how|> are you";
+		A=A.replace("<|how|>","<|where|>");
+		System.out.println(A);
+		
+		
+		
+		
+		
+	}
+
+}

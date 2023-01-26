@@ -1,0 +1,14 @@
+package PracticeClass;
+
+public class stringPractice {
+
+	public static void main(String[] args) {
+		
+		
+		// String Practice
+		String str ="This IS ME";
+		String name=str.toLowerCase();
+System.out.println(name);
+	}
+
+}

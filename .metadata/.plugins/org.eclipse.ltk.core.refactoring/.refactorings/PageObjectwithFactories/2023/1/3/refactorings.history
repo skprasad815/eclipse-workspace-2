@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;executables&apos; to &apos;temp/src/test/resources&apos;&#x0D;&#x0A;- Original project: &apos;PageObjectwithFactories&apos;&#x0D;&#x0A;- Destination element: &apos;temp/src/test/resources&apos;&#x0D;&#x0A;- Original element: &apos;executables&apos;" description="Copy folder" destination="=temp/src\/test\/resources=/test=/true=/=/maven.pomderived=/true=/" element1="src/test/resources/executables" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1673949500022" units="0" version="1.0"/>
+</session>

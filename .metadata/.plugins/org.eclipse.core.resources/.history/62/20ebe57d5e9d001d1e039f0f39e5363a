@@ -1,0 +1,19 @@
+package com.inetBanking.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class CustomisedStatementPage {
+
+	WebDriver ldriver;
+
+	public CustomisedStatementPage(WebDriver rdriver) 
+	{
+		ldriver=rdriver;
+		PageFactory.initElements(rdriver, this);
+	}	
+	
+	
+	
+	
+}

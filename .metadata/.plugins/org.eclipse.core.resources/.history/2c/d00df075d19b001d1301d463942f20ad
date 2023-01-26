@@ -1,0 +1,10 @@
+package com.inetBanking.testCases;
+
+public class TC_AddNewCust_003 extends BaseClass  {
+
+public void AddNewCustomer()  {
+	
+	
+}
+	
+}

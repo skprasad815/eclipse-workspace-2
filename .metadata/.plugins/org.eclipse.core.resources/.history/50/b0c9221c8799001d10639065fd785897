@@ -1,0 +1,12 @@
+package com.inetBanking.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseClass {
+
+	public String url= "https://demo.guru99.com/V1/index.php";
+	public String username="mngr472775";
+	public String password="gepavEg";
+	public static WebDriver driver;
+	
+}

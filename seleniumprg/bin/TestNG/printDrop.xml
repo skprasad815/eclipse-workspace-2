@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="seleniumprg">
+<test name="printdropdown">
+<classes>
+<class name="TestNG.PrintDropdowns_TextBoxes_Buttons_RB.java">
+<methods>
+<include name="printTextBoxes"></include>
+<include name="printDropdowns"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

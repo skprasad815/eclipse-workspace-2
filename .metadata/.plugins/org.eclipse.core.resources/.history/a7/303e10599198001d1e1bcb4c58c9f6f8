@@ -1,0 +1,13 @@
+package PracticeClass;
+
+public class stringpractice {
+public void main(String arg[]) {
+	//problem 1
+	
+	String str ="This IS ME";
+			 String str1=str.toLowerCase();
+	System.out.println(str1);
+	
+	
+}
+}

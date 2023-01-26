@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="seleniumprg">
+<test name="printdropdown">
+<classes>
+<class name="TestNG.iframework.java">
+
+</class>
+
+</classes>
+</test>
+
+<test name="Validation">
+<classes>
+<class name="TestNG.Validation.java"/>
+
+
+
+</classes>
+</test>
+
+</suite>

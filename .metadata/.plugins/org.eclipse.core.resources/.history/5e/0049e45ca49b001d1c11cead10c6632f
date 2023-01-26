@@ -1,0 +1,6 @@
+url =https://demo.guru99.com/V1/index.php
+userid =mngr472775
+password =gepavEg
+chrome=./Drivers\\chromedriver.exe
+firefox=./Drivers\\geckodriver.exe
+ie=./Drivers\\IEdriverServer.exe

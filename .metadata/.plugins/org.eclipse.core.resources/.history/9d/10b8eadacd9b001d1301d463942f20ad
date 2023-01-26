@@ -1,0 +1,22 @@
+package com.inetBanking.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class AddNewCustomerPage {
+
+	WebDriver ldriver;
+
+	public AddNewCustomerPage(WebDriver rdriver) 
+	{
+		ldriver=rdriver;
+		PageFactory.initElements(rdriver, this);
+	}	
+	
+	
+	
+	
+	
+	
+	
+}

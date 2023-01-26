@@ -1,0 +1,19 @@
+package PracticeClass;
+
+public class stringPractice {
+
+	public static void main(String[] args) {
+
+		// to lower case
+		String str = "This IS ME";
+		String name = str.toLowerCase();
+		System.out.println(name);
+
+		// replace space with _
+		
+		String Hi = "Hi how are you";
+		Hi=Hi.replace("h","_");
+		System.out.println(Hi);
+	}
+
+}

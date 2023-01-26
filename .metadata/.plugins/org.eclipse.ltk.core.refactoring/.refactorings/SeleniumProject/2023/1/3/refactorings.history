@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;InternB3/src/PracticeClass&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumProject&apos;&#x0D;&#x0A;- Destination element: &apos;InternB3/src/PracticeClass&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Interview.java&#x0D;&#x0A;     DuplicateCharacterinString.java&#x0D;&#x0A;     RepeatedinString.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=InternB3/src&lt;PracticeClass" element1="/src&lt;{Interview.java" element2="/src&lt;{DuplicateCharacterinString.java" element3="/src&lt;{RepeatedinString.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1674206038115" units="3" version="1.0"/>
+</session>
