@@ -48,6 +48,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="H_R_Manet"/>
 			<item value="inetBankingV1"/>
 			<item value="com.Project.testautomation"/>
 			<item value="com.project"/>
@@ -55,6 +56,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="H_R_Manet"/>
 			<item value="inetBankingV1"/>
 			<item value="temp"/>
 			<item value="LiveProject"/>

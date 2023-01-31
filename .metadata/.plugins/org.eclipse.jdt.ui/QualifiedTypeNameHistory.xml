@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.testng.annotations.BeforeSuite"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputFilter.Config"/>
-    <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="com.project.utils.ExcelReader"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
@@ -22,7 +18,6 @@
     <fullyQualifiedTypeName name="org.openqa.grid.web.utils.BrowserNameUtils"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="temp.product.amazon.utils.BrowserManager"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
@@ -32,11 +27,7 @@
     <fullyQualifiedTypeName name="org.testng.Reporter"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
@@ -53,11 +44,20 @@
     <fullyQualifiedTypeName name="com.inetBanking.utilities.ExcelReader"/>
     <fullyQualifiedTypeName name="com.inetBanking.utilities.ExtentManager"/>
     <fullyQualifiedTypeName name="com.inetBanking.utilities.ReadConfig"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="com.inetBanking.pageObjects.AddNewCustomerPage"/>
     <fullyQualifiedTypeName name="org.apache.commons.lang3.RandomStringUtils"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="com.inetBanking.testCases.BaseClass"/>
     <fullyQualifiedTypeName name="com.inetBanking.pageObjects.LoginPage"/>
     <fullyQualifiedTypeName name="com.inetBanking.pageObjects.CustomisedStatementPage"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="com.HRManet.Utilities.ReadConfig"/>
+    <fullyQualifiedTypeName name="com.HRManet.Utilities.ExcelReader"/>
+    <fullyQualifiedTypeName name="com.HRManet.TestCases.BaseClass"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="com.HRManet.PageObjects.LoginPage"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 </qualifiedTypeNameHistroy>

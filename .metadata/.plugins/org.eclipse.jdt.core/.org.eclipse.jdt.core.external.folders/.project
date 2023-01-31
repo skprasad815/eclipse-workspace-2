@@ -14,5 +14,10 @@
 			<type>2</type>
 			<location>C:/Users/santo/eclipse/java-2022-092/eclipse/configuration/org.eclipse.osgi/435/0/.cp</location>
 		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/Users/santo/eclipse-workspace-2/inetBankingV2config/target/classes</location>
+		</link>
 	</linkedResources>
 </projectDescription>
