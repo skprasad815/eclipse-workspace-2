@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\santo\Desktop\latestJars\Hybrid_frameWork-master"/>
 			<item value="C:\Users\santo\eclipse-workspace-2\LiveProject"/>
 			<item value="C:\Users\santo\eclipse-workspace-2\InternBatch\pom.xml"/>
 			<item value="C:\Users\santo\Desktop\latestJars\Hybrid_frameWork-master\src\main\java\com\qa\automation\factory\DriverFactory.java"/>
@@ -29,8 +30,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org."/>
 		</list>
 		<list key="groupId">
+			<item value="RestAssuredAPI"/>
 		</list>
 		<list key="artifactId">
 		</list>
@@ -48,18 +51,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="H_R_Manet"/>
-			<item value="inetBankingV1"/>
-			<item value="com.Project.testautomation"/>
-			<item value="com.project"/>
+			<item value="RestAssuredAPI"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="H_R_Manet"/>
-			<item value="inetBankingV1"/>
-			<item value="temp"/>
-			<item value="LiveProject"/>
+			<item value="RestAssuredAPI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

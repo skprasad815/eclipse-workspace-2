@@ -1,5 +1,5 @@
-16:17:35,018  INFO devpinoyLogger:60 - URL is opened
-16:17:35,284  INFO devpinoyLogger:30 - username entered
-16:17:35,450  INFO devpinoyLogger:32 - password entered
-16:17:36,872  INFO devpinoyLogger:34 - login btn clicked
-16:17:36,880  INFO devpinoyLogger:38 - login test passed
+13:39:29,655  INFO devpinoyLogger:60 - URL is opened
+13:39:30,055  INFO devpinoyLogger:30 - username entered
+13:39:30,174  INFO devpinoyLogger:32 - password entered
+13:39:31,597  INFO devpinoyLogger:34 - login btn clicked
+13:39:31,611  INFO devpinoyLogger:38 - login test passed
