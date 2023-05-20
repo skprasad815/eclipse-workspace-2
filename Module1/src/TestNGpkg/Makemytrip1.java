@@ -3,21 +3,25 @@ package TestNGpkg;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Makemytrip1 {
 	static WebDriver driver;
 
 	@Test
 	public void roundtrip() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\santo\\Desktop\\latestJars\\chrome\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		/*
+		 * System.setProperty("webdriver.chrome.driver",
+		 * "C:\\Users\\santo\\Desktop\\latestJars\\chrome\\chromedriver.exe");
+		 */
+		WebDriverManager.chromedriver().setup();
+		 driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
 		driver.get("https://www.makemytrip.com");
@@ -25,8 +29,12 @@ public class Makemytrip1 {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		Thread.sleep(2000);
 	
-		driver.findElement(By.xpath("//li[@class='selected']//span[@class='tabsCircle appendRight5']")).click();
-	
+		WebElement RoundTrip = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/div[1]/ul/li[2]"));
+		RoundTrip.click();
+		RoundTrip.isEnabled();
+		System.out.println("true");
+		
+		
 		// selecting from city
 		
 		driver.findElement(By.id("fromCity")).click();

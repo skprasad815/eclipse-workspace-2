@@ -12,7 +12,7 @@ public class amazonlink {
 	WebDriver driver;
   @Test
   public void f() throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\Desktop\\LatestSeleniumjar\\Chrome\\chromedriver.exe");	
+	  System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\santo\\\\Desktop\\\\latestJars\\\\chrome\\\\chromedriver.exe");	
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://amazon.in");

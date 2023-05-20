@@ -4,6 +4,7 @@
 <parameter name="browser" value="chrome"></parameter>
   <test name="Test">
     <classes>
+    <class name="com.HRManet.TestCases.TC_LoginPage_001"/>
       <class name="com.HRManet.TestCases.TC_LoginPage_001"/>
     </classes>
   </test> <!-- Test -->

@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.project.utils.ExcelReader"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
-    <fullyQualifiedTypeName name="org.testng.Assert.ThrowingRunnable"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
-    <fullyQualifiedTypeName name="org.testng.ITestListener"/>
-    <fullyQualifiedTypeName name="com.project.utils.TestUtil"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
     <fullyQualifiedTypeName name="com.project.base.TestBase"/>
     <fullyQualifiedTypeName name="com.crm.qa.base.TestBase"/>
     <fullyQualifiedTypeName name="java.util.logging.Logger"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
     <fullyQualifiedTypeName name="org.openqa.grid.web.utils.BrowserNameUtils"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
@@ -37,18 +29,15 @@
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.NoAlertPresentException"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.inetBanking.utilities.ExcelReader"/>
     <fullyQualifiedTypeName name="com.inetBanking.utilities.ExtentManager"/>
     <fullyQualifiedTypeName name="com.inetBanking.utilities.ReadConfig"/>
     <fullyQualifiedTypeName name="com.inetBanking.pageObjects.AddNewCustomerPage"/>
     <fullyQualifiedTypeName name="org.apache.commons.lang3.RandomStringUtils"/>
-    <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="com.inetBanking.testCases.BaseClass"/>
     <fullyQualifiedTypeName name="com.inetBanking.pageObjects.LoginPage"/>
     <fullyQualifiedTypeName name="com.inetBanking.pageObjects.CustomisedStatementPage"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
@@ -60,4 +49,15 @@
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
     <fullyQualifiedTypeName name="com.qa.automtion.pages.registrationClass_page"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="com.OCP.TestCase.BaseTest"/>
+    <fullyQualifiedTypeName name="com.OCP.utilities.ReadConfig"/>
+    <fullyQualifiedTypeName name="com.OCP.utilities.ExcelReader"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

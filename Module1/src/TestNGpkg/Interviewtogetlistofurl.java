@@ -14,16 +14,16 @@ public class Interviewtogetlistofurl {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\Desktop\\LatestSeleniumjar\\Chrome\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\santo\\\\Desktop\\\\latestJars\\\\chrome\\\\chromedriver.exe");	
 		driver=new ChromeDriver();
 		driver.get("http://google.com");
-		driver.findElement(By.name("q")).sendKeys("doctor near me",Keys.ENTER);
+		driver.findElement(By.name("q")).sendKeys("laptop");
 		Thread.sleep(2000);
-		//List<WebElement> str=driver.findElements(null)
-		List<WebElement> str=driver.findElements(By.xpath("//*[@class='iUh30 qLRx3b tjvcx']"));
-		System.out.println(str.size());
-		for (int i = 0; i < str.size(); i++) {
-			System.out.println(str.get(i).getText());
+		//List<WebElement> list=driver.findElements(null)
+		List<WebElement> list=driver.findElements(By.xpath("//*[@id=\"jZ2SBf\"]/div[1]/span"));
+		System.out.println(list.size());
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println(list.get(i).getText());
 			
 		}
 		

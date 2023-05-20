@@ -14,7 +14,7 @@ public class LinkonWebpage {
   public void f() {
 	  
 	  System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\LENOVO\\Desktop\\LatestSeleniumjar\\Chrome\\chromedriver.exe");
+				"C:\\\\Users\\\\santo\\\\Desktop\\\\latestJars\\\\chrome\\\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://google.com");
 		List< WebElement> alllinks=(List<WebElement>) driver.findElements(By.tagName("a"));

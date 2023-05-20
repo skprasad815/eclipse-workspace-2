@@ -142,7 +142,11 @@ public class Practice1 {
 		System.out.println("No of rows ns are:" + rows.size());
 		driver.navigate().back();
 	
-	
+		/*
+		 * WebElement Resize= driver.findElement(By.
+		 * xpath("//div[@class='ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se']"
+		 * )); Actions Act = new Actions(driver); Act.dragAndDropBy(Resize, 300, 800);
+		 */
 	}
 
 }

@@ -14,7 +14,7 @@ public class Interviewtogetlistofurl {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\Desktop\\LatestSeleniumjar\\Chrome\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\santo\\\\Desktop\\\\latestJars\\\\chrome\\\\chromedriver.exe");	
 		driver=new ChromeDriver();
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("doctor near me",Keys.ENTER);

@@ -25,7 +25,6 @@ public class AmazonPractice {
 
 		driver.get("https://www.amazon.in");
 		
-		
 		/*
 		 * driver.findElement(By.xpath(
 		 * "/html[1]/body[1]/div[1]/header[1]/div[1]/div[3]/div[13]/div[2]/a[1]/span[1]"
@@ -58,8 +57,8 @@ public class AmazonPractice {
 		
 		driver.findElement(By.xpath("//a[contains(text(),\"Today's Deals\")]")).click();
 		
-		JavascriptExecutor jsx = (JavascriptExecutor) driver;
-		jsx.executeScript("window.scrollBy(0,1000)", " ");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,1000)", " ");
 		driver.findElement(By.xpath("//body/div[@id='a-page']/div[@id='slot-15']/div[@id='slot-15']/div[1]/div[1]/div[2]/div[2]/span[6]/li[3]/label[1]/input[1]")).click();
 	}
 

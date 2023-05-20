@@ -16,7 +16,7 @@ public class Dataprovider1 {
 		data[1][1]="P2";
 		data[1][2]="abc@gmail.com";
 		
-		return data;
+		return data ;
 }
 	public void testlogin(String uname,String pwd,String email)
 	{

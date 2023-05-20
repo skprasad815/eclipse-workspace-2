@@ -9,12 +9,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class dropdownmultiplevalue {
   @Test
   void f() throws InterruptedException {
 	 WebDriver driver; 
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\Desktop\\LatestSeleniumjar\\Chrome\\chromedriver.exe");	
-		driver=new ChromeDriver();
+	 //System.setProperty("webdriver.chrome.driver", "C:\\Users\\santo\\Desktop\\latestJars\\chrome\\chromedriver.exe");	
+	WebDriverManager.chromedriver().setup();
+	driver=new ChromeDriver();
 	  
 		driver.get("http://ebay.com");
 		driver.manage().window().maximize();

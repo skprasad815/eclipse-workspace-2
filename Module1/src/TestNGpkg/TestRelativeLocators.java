@@ -1,7 +1,5 @@
 package TestNGpkg;
 
-import static org.openqa.selenium.support.locators.RelativeLocator.withTagName;
-
 import java.io.File;
 import java.io.IOException;
 
@@ -29,7 +27,7 @@ public class TestRelativeLocators {
 
 		//driver.findElement(RelativeLocator.withTagName("input").toRightOf(By.linkText("Signin"))).click();
 	
-		driver.findElement(withTagName("input").below(By.xpath("//*[@id='load_form']/fieldset[7]/input"))).click();
+		driver.findElement(By.tagName("input").below(By.xpath("//*[@id='load_form']/fieldset[7]/input"))).click();
 		
 		
 

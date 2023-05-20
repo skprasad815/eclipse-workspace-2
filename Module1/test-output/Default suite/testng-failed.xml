@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGpkg.WebTable">
+      <class name="TestNGpkg.LinkonWebpage">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- TestNGpkg.WebTable -->
+      </class> <!-- TestNGpkg.LinkonWebpage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

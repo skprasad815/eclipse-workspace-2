@@ -30,10 +30,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org."/>
 		</list>
 		<list key="groupId">
-			<item value="RestAssuredAPI"/>
 		</list>
 		<list key="artifactId">
 		</list>
@@ -51,11 +49,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="OCP"/>
+			<item value="com.oc"/>
 			<item value="RestAssuredAPI"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="com.OCP"/>
+			<item value="com.oc"/>
 			<item value="RestAssuredAPI"/>
 		</list>
 		<list key="projectNameTemplate">
